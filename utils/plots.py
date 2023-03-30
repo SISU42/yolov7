@@ -21,6 +21,7 @@ from scipy.signal import butter, filtfilt
 from utils.general import xywh2xyxy, xyxy2xywh
 from utils.metrics import fitness
 
+
 keypoint_dict = {
     0 : 'nose',
     1 : 'left_eye',
